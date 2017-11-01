@@ -1,1 +1,1 @@
-# phpstorm-code-style
+# KingsCode PHPStorm Code Style.
