@@ -1,8 +1,9 @@
 <code_scheme name="KingsCode">
   <option name="LINE_SEPARATOR" value="&#xA;" />
   <option name="HTML_ATTRIBUTE_WRAP" value="4" />
-  <option name="HTML_ELEMENTS_TO_INSERT_NEW_LINE_BEFORE" value="body,div,p,form,h1,h2,h3,img" />
+  <option name="HTML_ELEMENTS_TO_INSERT_NEW_LINE_BEFORE" value="body,div,p,form,h1,h2,h3,img,ul,li,a" />
   <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="html" />
+  <option name="HTML_INLINE_ELEMENTS" value="abbr,acronym,b,basefont,bdo,big,br,cite,cite,code,dfn,em,font,i,img,input,kbd,label,q,s,samp,select,span,strike,strong,sub,sup,textarea,tt,u,var,a" />
   <option name="HTML_ENFORCE_QUOTES" value="true" />
   <option name="HTML_NEWLINE_BEFORE_FIRST_ATTRIBUTE" value="When multiline" />
   <option name="HTML_NEWLINE_AFTER_LAST_ATTRIBUTE" value="When multiline" />
@@ -37,7 +38,6 @@
     <option name="BLANK_LINE_BEFORE_RETURN_STATEMENT" value="true" />
     <option name="KEEP_RPAREN_AND_LBRACE_ON_ONE_LINE" value="true" />
     <option name="FORCE_SHORT_DECLARATION_ARRAY_STYLE" value="true" />
-    <option name="SPACE_BEFORE_COLON_IN_RETURN_TYPE" value="true" />
     <option name="PHPDOC_USE_FQCN" value="true" />
     <option name="NAMESPACE_BRACE_STYLE" value="2" />
     <option name="PLACE_PARENS_FOR_CONSTRUCTOR" value="1" />
