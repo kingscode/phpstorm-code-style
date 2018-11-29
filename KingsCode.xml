@@ -13,7 +13,7 @@
         <option name="HTML_KEEP_WHITESPACES_INSIDE" value="pre,span"/>
         <option name="HTML_ENFORCE_QUOTES" value="true"/>
     </HTMLCodeStyleSettings>
-    <JSCodeStyleSettings>
+    <JSCodeStyleSettings version="0">
         <option name="FORCE_SEMICOLON_STYLE" value="true"/>
         <option name="USE_DOUBLE_QUOTES" value="false"/>
         <option name="FORCE_QUOTE_STYlE" value="true"/>
@@ -42,6 +42,7 @@
         <option name="BLANK_LINES_AFTER_OPENING_TAG" value="1"/>
         <option name="KEEP_BLANK_LINES_AFTER_LBRACE" value="0"/>
         <option name="SPACE_AFTER_UNARY_NOT" value="true"/>
+        <option name="FORCE_SHORT_DECLARATION_ARRAY_STYLE" value="true"/>
         <option name="PHPDOC_USE_FQCN" value="true"/>
         <option name="NAMESPACE_BRACE_STYLE" value="2"/>
         <option name="PLACE_PARENS_FOR_CONSTRUCTOR" value="1"/>
