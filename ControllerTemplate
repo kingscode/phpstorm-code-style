@@ -1,0 +1,44 @@
+<?php
+
+use Illuminate\Http\Request;
+use Illuminate\Routing\Controller;
+use Illuminate\Contracts\Auth\Access\Gate;
+use Illuminate\Contracts\Routing\ResponseFactory;
+
+#if (${NAMESPACE})
+
+namespace ${NAMESPACE};
+
+#end
+
+final class ${NAME} extends Controller
+{
+    
+    /**
+     * @var \Illuminate\Contracts\Routing\ResponseFactory
+     */
+    protected $responseFactory;
+    
+    /**
+     * @var \Illuminate\Contracts\Auth\Access\Gate
+     */
+    protected $gate;
+    
+    /**
+     * @param \Illuminate\Contracts\Routing\ResponseFactory $responseFactory
+     * @param \Illuminate\Contracts\Auth\Access\Gate $gate
+     */
+    public function __construct(ResponseFactory $responseFactory, Gate $gate)
+    {
+        $this->responseFactory = $responseFactory;
+        $this->gate = $gate;
+    }
+
+    /**
+     * @param \Illuminate\Http\Request $request
+     */
+    public function __invoke(Request $request)
+    {
+         return $this->responseFactory->noContent(200);
+    }
+}
