@@ -30,9 +30,7 @@
         <option name="ALIGN_PHPDOC_COMMENTS" value="true"/>
         <option name="COMMA_AFTER_LAST_ARRAY_ELEMENT" value="true"/>
         <option name="PHPDOC_BLANK_LINE_BEFORE_TAGS" value="true"/>
-        <option name="PHPDOC_THROWS_CALL_TREE_ANALYSIS_DEPTH" value="0"/>
-        <option name="PHPDOC_THROWS_IGNORE_RUNTIME_EXCEPTIONS" value="false"/>
-        <option name="PHPDOC_THROWS_IGNORE_LOGIC_EXCEPTIONS" value="false"/>
+        <option name="PHPDOC_PARAM_SPACES_BETWEEN_TAG_AND_TYPE" value="2"/>
         <option name="LOWER_CASE_BOOLEAN_CONST" value="true"/>
         <option name="LOWER_CASE_NULL_CONST" value="true"/>
         <option name="ELSE_IF_STYLE" value="COMBINE"/>
