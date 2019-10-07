@@ -44,6 +44,9 @@
         <option name="NAMESPACE_BRACE_STYLE" value="2"/>
         <option name="PLACE_PARENS_FOR_CONSTRUCTOR" value="1"/>
     </PHPCodeStyleSettings>
+    <RsCodeStyleSettings>
+        <option name="SPACE_AROUND_ASSOC_TYPE_BINDING" value="true"/>
+    </RsCodeStyleSettings>
     <editorconfig>
         <option name="ENABLED" value="false"/>
     </editorconfig>
