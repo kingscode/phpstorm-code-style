@@ -1,4 +1,5 @@
 <code_scheme name="Kings Code" version="173">
+    <option name="LINE_SEPARATOR" value="&#xA;"/>
     <option name="FORMATTER_TAGS_ENABLED" value="true"/>
     <CssCodeStyleSettings>
         <option name="HEX_COLOR_LOWER_CASE" value="true"/>
@@ -21,7 +22,6 @@
         <option name="ENFORCE_TRAILING_COMMA" value="WhenMultiline"/>
         <option name="USE_EXPLICIT_JS_EXTENSION" value="TRUE"/>
         <option name="USE_CHAINED_CALLS_GROUP_INDENTS" value="true"/>
-        <option name="IMPORT_SORT_MODULE_NAME" value="true"/>
         <option name="IMPORT_PREFER_ABSOLUTE_PATH" value="TRUE"/>
     </JSCodeStyleSettings>
     <PHPCodeStyleSettings>
@@ -80,6 +80,9 @@
         <indentOptions>
             <option name="CONTINUATION_INDENT_SIZE" value="4"/>
         </indentOptions>
+        <arrangement>
+            <rules/>
+        </arrangement>
     </codeStyleSettings>
     <codeStyleSettings language="JSON">
         <option name="SOFT_MARGINS" value="80"/>
